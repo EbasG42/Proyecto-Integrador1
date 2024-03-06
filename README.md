@@ -1,5 +1,7 @@
 # Proyecto-Integrador1
-## integrantes 
+
+## integrantes
+
 - Samuel Barona
 - Lina Andrade
 - Alexis Jaramillo
