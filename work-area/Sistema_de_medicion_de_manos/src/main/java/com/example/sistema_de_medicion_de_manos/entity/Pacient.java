@@ -1,4 +1,9 @@
 package com.example.sistema_de_medicion_de_manos.entity;
+
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+
 /**
  * la clase paciente va alamacenar la clase madre, el genero y contendra el resumen de la prueba
  *
@@ -9,7 +14,9 @@ package com.example.sistema_de_medicion_de_manos.entity;
 
 
 public class Pacient extends User{
-
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    long id;
     private String gender;
     private Sample summary;
 
