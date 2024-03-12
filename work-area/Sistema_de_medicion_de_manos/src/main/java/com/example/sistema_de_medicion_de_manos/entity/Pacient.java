@@ -24,10 +24,10 @@ public class Pacient extends User{
         super();
     }
 
-    public Pacient(long id, String name, String lastname,
+    public Pacient( String name, String lastname,
                    String document, String email,
                    String gender, Sample summary) {
-        super(id, name, lastname, document, email);
+        super( name, lastname, document, email);
         this.gender = gender;
         this.summary = summary;
     }

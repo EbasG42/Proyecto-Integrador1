@@ -12,7 +12,7 @@ public class Doctor extends User{
         super();
     }
 
-    public Doctor(long id, String name, String lastname, String document, String email) {
-        super(id, name, lastname, document, email);
+    public Doctor( String name, String lastname, String document, String email) {
+        super( name, lastname, document, email);
     }
 }

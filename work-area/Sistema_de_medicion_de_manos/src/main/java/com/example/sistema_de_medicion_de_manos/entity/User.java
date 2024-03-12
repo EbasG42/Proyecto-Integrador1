@@ -11,7 +11,7 @@ package com.example.sistema_de_medicion_de_manos.entity;
 
 
 abstract class User {
-    private long id;
+
     private  String name;
     private String lastname;
     private String document;
@@ -22,8 +22,8 @@ abstract class User {
     public User() {
     }
 
-    public User(long id, String name, String lastname, String document, String email) {
-        this.id = id;
+    public User( String name, String lastname, String document, String email) {
+
         this.name = name;
         this.lastname = lastname;
         this.document = document;
@@ -31,13 +31,9 @@ abstract class User {
 
     }
 
-    public long getId() {
-        return id;
-    }
 
-    public void setId(long id) {
-        this.id = id;
-    }
+
+
 
     public String getName() {
         return name;
